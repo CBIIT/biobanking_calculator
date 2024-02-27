@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Informed Consent Survey POC</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .question { margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+    <style>
+    h1 {
+        color: red;
+    }
+</style>
+	<h1>**PROOF OF CONCEPT**</h1>
+	
+	<h2>Informed Consent Survey</h2>
+
+    <!-- Survey Form -->
+    <form id="surveyForm">
+        <div class='question'>
+            <label><u>Please Answer the Questions Below to Get Your Score:</u></label><br>
+        </div>
+        <div class='question'>
+            <label><b>Am I able to share specimens?</b></label><br>
+            <!-- Radio inputs for sharing specimens -->
+		<input type='radio' name='QuestionName1' value='1'> (No) Can participants be recruited for a new collection? (END Survey)<br>
+		<input type='radio' name='QuestionName1' value='3'> Yes, but Access is limited (e.g., through collaboration or limited by usage or collection may be split between sites, etc.) (user may want to create comment)<br>
+		<input type='radio' name='QuestionName1' value='5'> (Yes) I have a stored collection I am able to share within my organization<br>
+		<input type='radio' name='QuestionName1' value='7'> (Yes) I have a stored collection I am able to share outside my organization<br>
+
+        </div>
+        <div class='question'>
+            <label><b>Are samples collected and processed with clear documentation to support fit for purpose use?</b></label><br>
+            <!-- Radio inputs for sample collection and documentation -->
+		<input type='radio' name='QuestionName2' value='1'> Specimens not collected/preserved correctly. Existing collection has no preanalytical testing or documentation (END Survey)<br>
+		<input type='radio' name='QuestionName2' value='3'> Specimens collected/preserved correctly. Existing collection has no preanalytical testing or documentation<br>
+		<input type='radio' name='QuestionName2' value='5'> Specimens collected/preserved correctly. Existing collection has limited preanalytical testing or documentation<br>
+		<input type='radio' name='QuestionName2' value='7'> Specimens collected/preserved correctly. Collection is fit for purpose per biospecimen research standards; preanalytical variations are tested; eval of QC markers performed; SOPs on file<br>
+
+        </div>
+        <div class='question'>
+            <label><b>What level of annotation, clinical and/or phenotypic data are available?</b></label><br>
+            <!-- Radio inputs for annotation and data availability -->
+		<input type='radio' name='QuestionName3' value='1'> Level of specimen annotation not suitable for research or of commercial value (no usable patient data or pre-analytical-processing data), no chain of custody<br>
+		<input type='radio' name='QuestionName3' value='3'> Limited suitability, partial specimen annotation, limited regarding patient data AND pre-analytical-processing data, limited chain of custody<br>
+		<input type='radio' name='QuestionName3' value='5'> Adequate suitability, specimen annotation includes more robust patient data OR pre-analytical-processing data, but not both<br>
+		<input type='radio' name='QuestionName3' value='7'> Level of specimen annotation is robust, suitable for research (i.e., personalized medicine) and specimen is of commercial value, full chain of custody history<br>
+
+        </div>
+        <div class='question'>
+            <label><b>Does sample data quality meet research need (I.e., fit for purpose?)?</b></label><br>
+            <!-- Radio inputs for sample data quality -->
+		<input type='radio' name='QuestionName4' value='1'> Data not fit for purpose<br>
+		<input type='radio' name='QuestionName4' value='3'> Few applicable data standards<br>
+		<input type='radio' name='QuestionName4' value='5'> Data standards meet the minimum standards<br>
+		<input type='radio' name='QuestionName4' value='7'> Broad fit for purpose, data standards are consistent with best practices<br>
+
+        </div>
+        <div class='question'>
+            <label><b>What degree of sharing is allowed by the informed consent?</b></label><br>
+            <!-- Radio inputs for sharing degree -->
+		<input type='radio' name='QuestionName5' value='1'> Informed consent and/or ethics review not documented or available; degree of sharing is unknown<br>
+		<input type='radio' name='QuestionName5' value='3'> Known restrictions from original consent are documented; (study) specific consent obtained only for immediate research; forbids any future research study, separate consent needed for new proposed research that meets applicable regulations/laws<br>
+		<input type='radio' name='QuestionName5' value='5'> Partially restricted (modified) consent allows for use in immediate research and any future research that is directly or indirectly related to the specimens, consent is waived by ethics board for specimens used under certain conditions<br>
+		<input type='radio' name='QuestionName5' value='7'> Broad consent allows for unspecified future research; broad sharing is acceptable, 9: consent with opting out principle where leftover diagnostic specimens can be used and shared, includes favorable dynamic and tiered consenting<br>
+
+        </div>
+        <div class='question'>
+            <label><b>If sharing is allowed, to what degree do samples and data need to be identifiable, coded, or anonymized?</b></label><br>
+            <!-- Radio inputs for sample and data identification -->
+		<input type='radio' name='QuestionName6' value='1'> Ethical and or legal requirements and safeguards for specimen and data deidentification are not identified or in place for sharing/access<br>
+		<input type='radio' name='QuestionName6' value='3'> Ethical and or legal requirements from ca majority of countries are restrictive for sample and data deidentification under limited sharing situations<br>
+		<input type='radio' name='QuestionName6' value='5'> Ethical and or legal requirements from few countries are considered for sample and data deidentification under particular sharing situations<br>
+		<input type='radio' name='QuestionName6' value='7'> Ethical and or legal requirements from various countries are considered for sample and data deidentification under BROAD sharing situations<br>
+
+        </div>
+        <div class='question'>
+            <label><b>Have samples been stored appropriately based on the sample type and intended use?</b></label><br>
+            <!-- Radio inputs for sample storage -->
+		<input type='radio' name='QuestionName7' value='1'> Does not meet basic considerations for long-term storage: conditions for existing samples is not known or known to be not suitable based on industry standards for solution composition and biospecimen type, not compliant with Best Practices<br>
+		<input type='radio' name='QuestionName7' value='3'> Meets a few sample storage requirements; stored at optimal condition, no temp profile or record of suboptimal circumstances during storage<br>
+		<input type='radio' name='QuestionName7' value='5'> Meets many of the recommended practices for storage of specimens and oversight for specimen quality: stored at optimal condition, long-term storage conditions monitored<br>
+		<input type='radio' name='QuestionName7' value='7'> Meets standards and best practices for storage of specimens and maintaining quality: long-term storage conditions monitored and documented, compliance with regulatory requirements for specimen storage and quality surveillance<br>
+
+        </div>
+        <div class='question'>
+            <label><b>what level of quality measures have been performed?</b></label><br>
+            <!-- Radio inputs for quality measures -->
+		<input type='radio' name='QuestionName8' value='1'> QC control systems not implemented; sample quality unknown or not reliable for downstream analysis<br>
+		<input type='radio' name='QuestionName8' value='3'> Sample quality suitable for limited downstream analytics<br>
+		<input type='radio' name='QuestionName8' value='5'> Sample quality suitable for most downstream analytics<br>
+		<input type='radio' name='QuestionName8' value='7'> Sample quality is suitable for all downstream analytics<br>
+
+        </div>
+        <div class='question'>
+            <label><b>Are samples scarce in current collections?</b></label><br>
+            <!-- Radio inputs for sample scarcity -->
+		<input type='radio' name='QuestionName9' value='1'> NO<br>
+		<input type='radio' name='QuestionName9' value='7'> YES<br>
+
+        </div>
+        <div class='question'>
+            <label><b>Are samples rare due to specific disease?</b></label><br>
+            <!-- Radio inputs for rare disease samples -->
+		<input type='radio' name='QuestionName10' value='1'> NO<br>
+		<input type='radio' name='QuestionName10' value='7'> YES<br>
+        </div>
+
+    <!-- Score Display -->
+    <div>
+        <h2><p><B>Total Score: <span id="totalScore">0</span></B></p></h2>
+    </div>
+
+    <!-- Submit Button -->
+    <button type="button" onclick="calculateScore()">Calculate Score</button>
+	
+	<!-- Generate PDF Button -->
+	<button type="button" onclick="generatePDF()">Generate PDF</button>
+
+    <!-- JavaScript for Score Calculation -->
+    <script>
+        function calculateScore() {
+            var totalScore = 0;
+            var form = document.getElementById('surveyForm');
+            var inputs = form.getElementsByTagName('input');
+
+            for (var i = 0; i < inputs.length; i++) {
+                if (inputs[i].type === "radio" && inputs[i].checked) {
+                    totalScore += parseInt(inputs[i].value);
+                }
+            }
+
+            document.getElementById('totalScore').textContent = totalScore;
+        }
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.3.1/jspdf.umd.min.js"></script>
+    <script>
+        function generatePDF() {
+            const { jsPDF } = window.jspdf;
+            var doc = new jsPDF();
+
+            // Add the survey title
+            doc.text(20, 20, 'Informed Consent Survey Results');
+            var yPosition = 30;
+
+            // Iterate through each question and add it to the PDF
+            var questions = document.getElementsByClassName('question');
+            for (var i = 0; i < questions.length; i++) {
+                var question = questions[i].getElementsByTagName('label')[0].innerText;
+                doc.text(20, yPosition, question);
+                yPosition += 10;
+
+                // Check for the selected answer
+                var inputs = questions[i].getElementsByTagName('input');
+                for (var j = 0; j < inputs.length; j++) {
+                    if (inputs[j].type === 'radio' && inputs[j].checked) {
+                        var answer = inputs[j].nextSibling.nodeValue.trim();
+                        doc.text(40, yPosition, answer);
+                        yPosition += 10;
+                    }
+                }
+            }
+
+            // Add the total score
+            var totalScore = document.getElementById('totalScore').textContent;
+            doc.text(20, yPosition, 'Total Score: ' + totalScore);
+
+            // Save the PDF
+            doc.save('SurveyResults.pdf');
+        }
+    </script>
+    </body>
+    </html>
